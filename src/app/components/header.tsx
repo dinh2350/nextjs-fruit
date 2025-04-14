@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="mt-4 sm:bg-[#F85559] rounded-[50px]">
       <div className="relative flex flex-col sm:flex-row sm:justify-between sm:items-center sm:p-4">
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center sm:order-2">
           <Image
             className="mr-2 object-cover"
             alt="logo"
@@ -30,9 +30,9 @@ const Header = () => {
           />
         </label>
 
-        <nav className="peer-checked:block hidden mt-4 sm:mt-0 sm:block">
+        <nav className="peer-checked:block hidden mt-4 sm:mt-0 sm:block sm:order-1">
           <ul className=" flex flex-col gap-y-4 sm:flex-row sm:gap-x-8 sm:ml-5">
-            <li className="nav-link border-b sm:border-0">
+            <li className="nav-link border-b sm:border-0 ">
               <a href="#home" className="sm:text-white block cursor-pointer">
                 Home
               </a>
@@ -55,7 +55,7 @@ const Header = () => {
           </ul>
         </nav>
 
-        <div className="hidden sm:block sm:mr-2">
+        <div className="hidden sm:block sm:mr-2 sm:order-3">
           <div className="flex justify-center items-center relative w-[300px]">
             <input
               type="text"
