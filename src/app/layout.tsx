@@ -1,3 +1,4 @@
+import DealOfTheDay from "app/components/DealOfTheDay";
 import Header from "app/components/header";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -30,6 +31,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <DealOfTheDay />
       </body>
     </html>
   );
