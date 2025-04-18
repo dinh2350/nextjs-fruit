@@ -2,17 +2,15 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="mt-4 sm:bg-[#F85559] rounded-[50px]">
-      <div className="relative flex flex-col sm:flex-row sm:justify-between sm:items-center sm:p-4">
+    <header className="mt-8 sm:bg-[#F85559] rounded-[50px]">
+      <div className="relative flex flex-col sm:flex-row sm:justify-between sm:items-center sm:p-2 md:p-4">
         <a href="#" className="flex items-center sm:order-2">
-          <Image
-            className="mr-2 object-cover"
+          <img
+            className="mr-2 object-cover w-8 "
             alt="logo"
             src="/images/logo.png"
-            width={50}
-            height={60}
           />
-          <span className="brand-name sm:text-white font-bold text-4xl">
+          <span className="brand-name md:text-white lg:text-2xl  text-black font-bold text-xl">
             Fruit Burst
           </span>
         </a>
@@ -20,18 +18,18 @@ const Header = () => {
         <input type="checkbox" className="peer hidden" id="navbar-open" />
         <label
           htmlFor="navbar-open"
-          className="absolute right-0 mt-2.5 cursor-pointer sm:hidden"
+          className="absolute right-0 mt-1 cursor-pointer sm:hidden"
         >
           <Image
             alt="menu-bar"
             src="/images/menu-bar.svg"
-            width={40}
-            height={40}
+            width={30}
+            height={30}
           />
         </label>
 
         <nav className="peer-checked:block hidden mt-4 sm:mt-0 sm:block sm:order-1">
-          <ul className=" flex flex-col gap-y-4 sm:flex-row sm:gap-x-8 sm:ml-5">
+          <ul className=" flex flex-col gap-y-4 sm:gap-y-0 sm:flex-row space-x-3 lg:space-x-6">
             <li className="nav-link border-b sm:border-0 ">
               <a href="#home" className="sm:text-white block cursor-pointer">
                 Home
@@ -55,8 +53,8 @@ const Header = () => {
           </ul>
         </nav>
 
-        <div className="hidden sm:block sm:mr-2 sm:order-3">
-          <div className="flex justify-center items-center relative w-[300px]">
+        <div className="hidden sm:block mr-2 sm:order-3">
+          <div className="flex justify-center items-center relative w-[220px] lg:w-[300px]">
             <input
               type="text"
               className="search-input bg-white rounded-[50px] p-3 outline-0 w-full"
