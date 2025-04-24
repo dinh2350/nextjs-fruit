@@ -1,15 +1,17 @@
 const Footer = () => {
   return (
-    <div className="bg-black pt-5">
+    <div className="bg-black pt-14 pb-10">
       <div className="flex justify-center items-center">
-        <img
-          className="mr-2 object-cover w-[35px]"
-          alt="logo"
-          src="/images/logo.png"
-        />
-        <span className="brand-name text-white font-bold text-3xl">
-          Fruit Burst
-        </span>
+        <a href="#" className="flex items-center">
+          <img
+            className="mr-2 object-cover w-[35px]"
+            alt="logo"
+            src="/images/logo.png"
+          />
+          <span className="brand-name text-white font-bold text-3xl">
+            Fruit Burst
+          </span>
+        </a>
       </div>
       <ul className="flex flex-wrap justify-center gap-x-10 gap-y-4 px-4 mt-7">
         <li>
@@ -43,7 +45,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <ul className="flex justify-center mt-7 pb-7 gap-x-6">
+      <ul className="flex justify-center mt-7 gap-x-6">
         <li>
           <a href="#">
             <img className="" src="/images/twitter.svg" alt="" />
