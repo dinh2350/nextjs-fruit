@@ -3,9 +3,9 @@ import Image from "next/image";
 const DealOfTheDay = () => {
   return (
     <div className=" mt-7">
-      <div className="sm:flex p-4">
-        <div className="sm:text-start text-center">
-          <h2 className="text-3xl font-black  ">Deal of the day</h2>
+      <div className="sm:flex p-4 md:p-0 justify-between">
+        <div className="sm:text-start text-center mb-9">
+          <h2 className="text-3xl font-black">Deal of the day</h2>
           <p className="text-sm mt-2 text-gray-600 leading-6 sm:w-[60%]">
             Contrary to popular belief, is not simply random text. It has roots
             in a piece of classical Latin literature from 45 BC, making it over
@@ -52,14 +52,14 @@ const DealOfTheDay = () => {
         </div>
       </div>
       <div className="">
-        <div className="flex flex-col sm:flex-row gap-y-5 sm:gap-x-5">
-          <div className="flex flex-col items-center justify-center border-1 border-gray-200 rounded-lg sm:w-[25%]">
+        <div className="flex flex-col sm:flex-row gap-5 flex-wrap ">
+          <div className="flex flex-col items-center justify-center border-1 border-gray-200 rounded-lg basis-full md:basis-[calc((100%-20px)/2)] lg:basis-[calc((100%-60px)/4)]">
             <Image
               className="object-cover mt-15 mb-10"
               alt="ellipsis"
               src="/images/fruit-apple.png"
-              width={106}
-              height={131}
+              width={86}
+              height={106}
             />
             <span className="text-2xl font-bold">12.90$ - 18.85$</span>
             <h5 className="border-t-1 border-gray-200 pt-5 mt-5 w-[70%] text-center text-gray-700 text-xl">
@@ -111,17 +111,17 @@ const DealOfTheDay = () => {
               Details
             </button>
           </div>
-          <div className="flex flex-col items-center justify-center border-1 border-gray-200 rounded-lg sm:w-[25%]">
+          <div className="flex flex-col items-center justify-center border-1 border-gray-200 rounded-lg basis-full md:basis-[calc((100%-20px)/2)] lg:basis-[calc((100%-60px)/4)]">
             <Image
               className="object-cover mt-15 mb-10"
               alt="ellipsis"
-              src="/images/fruit-apple.png"
+              src="/images/deal-orange.png"
               width={106}
-              height={131}
+              height={106}
             />
             <span className="text-2xl font-bold">12.90$ - 18.85$</span>
             <h5 className="border-t-1 border-gray-200 pt-5 mt-5 w-[70%] text-center text-gray-700 text-xl">
-              Apples
+              Orange
             </h5>
             <div className="flex items-center gap-x-1 mt-6">
               <svg
@@ -169,17 +169,17 @@ const DealOfTheDay = () => {
               Details
             </button>
           </div>
-          <div className="flex flex-col items-center justify-center border-1 border-gray-200 rounded-lg sm:w-[25%]">
+          <div className="flex flex-col items-center justify-center border-1 border-gray-200 rounded-lg basis-full md:basis-[calc((100%-20px)/2)] lg:basis-[calc((100%-60px)/4)]">
             <Image
               className="object-cover mt-15 mb-10"
               alt="ellipsis"
-              src="/images/fruit-apple.png"
+              src="/images/deal-red-dragon.png"
               width={106}
               height={131}
             />
             <span className="text-2xl font-bold">12.90$ - 18.85$</span>
             <h5 className="border-t-1 border-gray-200 pt-5 mt-5 w-[70%] text-center text-gray-700 text-xl">
-              Apples
+              Red Dragon
             </h5>
             <div className="flex items-center gap-x-1 mt-6">
               <svg
@@ -227,17 +227,17 @@ const DealOfTheDay = () => {
               Details
             </button>
           </div>
-          <div className="flex flex-col items-center justify-center border-1 border-gray-200 rounded-lg sm:w-[25%]">
+          <div className="flex flex-col items-center justify-center border-1 border-gray-200 rounded-lg basis-full md:basis-[calc((100%-20px)/2)] lg:basis-[calc((100%-60px)/4)]">
             <Image
               className="object-cover mt-15 mb-10"
               alt="ellipsis"
-              src="/images/fruit-apple.png"
+              src="/images/deal-banana.png"
               width={106}
               height={131}
             />
             <span className="text-2xl font-bold">12.90$ - 18.85$</span>
             <h5 className="border-t-1 border-gray-200 pt-5 mt-5 w-[70%] text-center text-gray-700 text-xl">
-              Apples
+              Banana
             </h5>
             <div className="flex items-center gap-x-1 mt-6">
               <svg
@@ -286,9 +286,8 @@ const DealOfTheDay = () => {
             </button>
           </div>
         </div>
-        {/* button  */}
         <div className="flex justify-center mt-7">
-          <button className="px-8 py-4 bg-[#F85559] text-white font-bold rounded-xl text-xl">
+          <button className="px-8 py-4 bg-[#F85559] hover:bg-red-600 text-white font-bold rounded-xl text-xl">
             Shop All
           </button>
         </div>
