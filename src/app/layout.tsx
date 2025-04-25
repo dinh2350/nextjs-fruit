@@ -26,7 +26,8 @@ export default function RootLayout({
         <div className="w-[80%] mx-auto">
           <Header />
           {children}
-          <DealOfTheDay/>
+          <DealOfTheDay />
+        </div>
         <Footer />
       </body>
     </html>
