@@ -20,7 +20,7 @@
     { "id": 5, "name": "Grapes", "image": "/images/categories/grapes.png" }
   ],
   "dealOfTheDay": {
-    "countdown": "2025-05-01T00:00:00",
+    "countDown": "2025-06-01T00:00:00",
     "content": "Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
     "products": [
       {
