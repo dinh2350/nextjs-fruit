@@ -6,6 +6,17 @@ interface DealFruitProps {
 }
 const DealFruit = ({ fruit }: DealFruitProps) => {
   const { name, image, rating, priceRange } = fruit;
+
+  const renderPriceRange = (priceRange: number[]) =>
+    priceRange.length > 0 ? (
+      <div>
+        <span className="text-2xl font-bold">{priceRange[0]}$</span>
+        {priceRange[1] ? (
+          <span className="text-2xl font-bold"> - {priceRange[1]}$</span>
+        ) : null}
+      </div>
+    ) : null;
+
   return (
     <div className="flex flex-col items-center justify-center border-1 border-gray-200 rounded-lg basis-full md:basis-[calc((100%-20px)/2)] lg:basis-[calc((100%-60px)/4)]">
       <img
@@ -13,18 +24,7 @@ const DealFruit = ({ fruit }: DealFruitProps) => {
         alt="ellipsis"
         src={image}
       />
-      {priceRange.length > 0 ? (
-        <div>
-          <span className="text-2xl font-bold">{priceRange[0]}$</span>
-          {priceRange[1] ? (
-            <span className="text-2xl font-bold"> - {priceRange[1]}$</span>
-          ) : (
-            ""
-          )}
-        </div>
-      ) : (
-        ""
-      )}
+      {renderPriceRange(priceRange)}
       <h5 className="border-t-1 border-gray-200 pt-5 mt-5 w-[70%] text-center text-gray-700 text-xl">
         {name}
       </h5>
