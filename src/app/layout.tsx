@@ -1,3 +1,4 @@
+import DealOfTheDay from "app/components/DealOfTheDay";
 import Footer from "app/components/footer";
 import Header from "app/components/header";
 import type { Metadata } from "next";
@@ -25,6 +26,7 @@ export default function RootLayout({
         <div className="w-[80%] mx-auto">
           <Header />
           {children}
+          <DealOfTheDay />
         </div>
         <Footer />
       </body>
