@@ -1,16 +1,12 @@
+import DealOfTheDay from "app/components/DealOfTheDay";
+import Footer from "app/components/footer";
 import Header from "app/components/header";
-import MeetTheTeam from "app/components/MeetTheTeam";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Lato } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const lato = Lato({
+  weight: ["100", "400", "700"],
   subsets: ["latin"],
 });
 
@@ -26,12 +22,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Header />
-        <MeetTheTeam />
-        {children}
+      <body className={lato.className}>
+        <div className="w-[80%] mx-auto">
+          <Header />
+          {children}
+          <DealOfTheDay />
+        </div>
+        <Footer />
       </body>
     </html>
   );
