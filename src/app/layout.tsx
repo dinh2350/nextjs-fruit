@@ -1,6 +1,7 @@
 import DealOfTheDay from "app/components/DealOfTheDay";
 import Footer from "app/components/footer";
 import Header from "app/components/header";
+import MeetTheTeam from "app/components/MeetTheTeam";
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
@@ -27,6 +28,7 @@ export default function RootLayout({
           <Header />
           {children}
           <DealOfTheDay />
+          <MeetTheTeam />
         </div>
         <Footer />
       </body>

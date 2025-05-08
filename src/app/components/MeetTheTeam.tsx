@@ -1,6 +1,11 @@
+import TeamMembers from "app/components/TeamMembers";
+import data from "data.json";
+
 const MeetTheTeam = () => {
+  const { teamMembers } = data;
+
   return (
-    <div className="relative">
+    <div className="relative my-25">
       <div className="absolute z-10 bg-black/70 w-full h-full rounded-xl"></div>
       <div>
         <img
@@ -26,168 +31,7 @@ const MeetTheTeam = () => {
           a piece of classical Latin listerature from 45 BC, making it over 2000
           years old.
         </p>
-        <div className="flex flex-col md:flex-row justify-between md:mt-1 mt-5 gap-y-6">
-          <div>
-            <div className="flex justify-center">
-              <img
-                className="object-cover lg:w-full w-[50%]"
-                src="/images/team1.png"
-                alt=""
-              />
-            </div>
-            <span className="block text-md md:mt-2 mt-4">Safia Chowdhury</span>
-            <span className="block md:mt-1 text-sm">Fruit Expert</span>
-            <ul className=" flex gap-x-3 justify-center md:mt-3 mt-2">
-              <li>
-                <a className="cursor-pointer" href="#">
-                  <img
-                    className="lg:w-7 lg:h-7 w-5 h-5 p-1 bg-[#F85559] rounded-full"
-                    src="/images/icon-facebook.svg"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer" href="#">
-                  <img
-                    className="lg:w-7 lg:h-7 w-5 h-5 p-1 bg-[#F85559] rounded-full"
-                    src="/images/icon-facebook.svg"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer" href="#">
-                  <img
-                    className="lg:w-7 lg:h-7 w-5 h-5 p-1 bg-[#F85559] rounded-full"
-                    src="/images/icon-facebook.svg"
-                    alt=""
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <div className="flex justify-center">
-              <img
-                className="object-cover lg:w-full w-[50%]"
-                src="/images/team1.png"
-                alt=""
-              />
-            </div>
-            <span className="block text-md md:mt-2 mt-4">Safia Chowdhury</span>
-            <span className="block md:mt-1 text-sm">Fruit Expert</span>
-            <ul className=" flex gap-x-3 justify-center md:mt-3 mt-2">
-              <li>
-                <a className="cursor-pointer" href="#">
-                  <img
-                    className="lg:w-7 lg:h-7 w-5 h-5 p-1 bg-[#F85559] rounded-full"
-                    src="/images/icon-facebook.svg"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer" href="#">
-                  <img
-                    className="lg:w-7 lg:h-7 w-5 h-5 p-1 bg-[#F85559] rounded-full"
-                    src="/images/icon-facebook.svg"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer" href="#">
-                  <img
-                    className="lg:w-7 lg:h-7 w-5 h-5 p-1 bg-[#F85559] rounded-full"
-                    src="/images/icon-facebook.svg"
-                    alt=""
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <div className="flex justify-center">
-              <img
-                className="object-cover lg:w-full w-[50%]"
-                src="/images/team1.png"
-                alt=""
-              />
-            </div>
-            <span className="block text-md md:mt-2 mt-4">Safia Chowdhury</span>
-            <span className="block md:mt-1 text-sm">Fruit Expert</span>
-            <ul className=" flex gap-x-3 justify-center md:mt-3 mt-2">
-              <li>
-                <a className="cursor-pointer" href="#">
-                  <img
-                    className="lg:w-7 lg:h-7 w-5 h-5 p-1 bg-[#F85559] rounded-full"
-                    src="/images/icon-facebook.svg"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer" href="#">
-                  <img
-                    className="lg:w-7 lg:h-7 w-5 h-5 p-1 bg-[#F85559] rounded-full"
-                    src="/images/icon-facebook.svg"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer" href="#">
-                  <img
-                    className="lg:w-7 lg:h-7 w-5 h-5 p-1 bg-[#F85559] rounded-full"
-                    src="/images/icon-facebook.svg"
-                    alt=""
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <div className="flex justify-center">
-              <img
-                className="object-cover lg:w-full w-[50%]"
-                src="/images/team1.png"
-                alt=""
-              />
-            </div>
-            <span className="block text-md md:mt-2 mt-4">Safia Chowdhury</span>
-            <span className="block md:mt-1 text-sm">Fruit Expert</span>
-            <ul className=" flex gap-x-3 justify-center md:mt-3 mt-2">
-              <li>
-                <a className="cursor-pointer" href="#">
-                  <img
-                    className="lg:w-7 lg:h-7 w-5 h-5 p-1 bg-[#F85559] rounded-full"
-                    src="/images/icon-facebook.svg"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer" href="#">
-                  <img
-                    className="lg:w-7 lg:h-7 w-5 h-5 p-1 bg-[#F85559] rounded-full"
-                    src="/images/icon-facebook.svg"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer" href="#">
-                  <img
-                    className="lg:w-7 lg:h-7 w-5 h-5 p-1 bg-[#F85559] rounded-full"
-                    src="/images/icon-facebook.svg"
-                    alt=""
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <TeamMembers teamMembers={teamMembers} />
       </div>
     </div>
   );
