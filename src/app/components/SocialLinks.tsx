@@ -10,7 +10,7 @@ const SocialLinks = ({ socialLinks }: SocialLinksProps) => {
 
   const renderSocialLinks = (socialLinks: ISocialLink[]) =>
     socialLinks.map((socialLink: ISocialLink) => (
-      <SocialLinkMember socialLink={socialLink} />
+      <SocialLinkMember socialLink={socialLink} key={socialLink.id} />
     ));
 
   return (

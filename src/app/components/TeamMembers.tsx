@@ -10,7 +10,7 @@ const TeamMembers = ({ teamMembers }: TeamMembersProps) => {
 
   const renderMembers = (teamMembers: ITeamMember[]) =>
     teamMembers.map((teamMember: ITeamMember) => (
-      <Member teamMember={teamMember} />
+      <Member teamMember={teamMember} key={teamMember.id} />
     ));
 
   return (
