@@ -53,35 +53,110 @@
       }
     ]
   },
-  "team": [
+  "teamMembers": [
     {
       "id": 1,
       "name": "Awlad Hossain",
       "position": "Fruits Expert",
-      "photo": "/images/team/sofie.png",
+      "avatar": "/images/team1.png",
       "socialLinks": [
-        { "id": 1, "platform": "facebook", "link": "" },
-        { "id": 2, "platform": "twitter", "link": "" },
-        { "id": 3, "platform": "twitter", "link": "" }
+        {
+          "id": 1,
+          "platform": "facebook",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 2,
+          "platform": "twitter",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 3,
+          "platform": "instagram",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        }
       ]
     },
     {
       "id": 2,
       "name": "Safia Chowdhury",
       "position": "Fruits Expert",
-      "photo": "/images/team/hannah.png"
+      "avatar": "/images/team1.png",
+      "socialLinks": [
+        {
+          "id": 1,
+          "platform": "facebook",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 2,
+          "platform": "twitter",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 3,
+          "platform": "instagram",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        }
+      ]
     },
     {
       "id": 3,
       "name": "Rokib Hossain",
       "position": "Fruits Expert",
-      "photo": "/images/team/samuel.png"
+      "avatar": "/images/team1.png",
+      "socialLinks": [
+        {
+          "id": 1,
+          "platform": "facebook",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 2,
+          "platform": "twitter",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 3,
+          "platform": "instagram",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        }
+      ]
     },
     {
       "id": 4,
       "name": "Chaity",
       "position": "Fruits Expert",
-      "photo": "/images/team/chris.png"
+      "avatar": "/images/team1.png",
+      "socialLinks": [
+        {
+          "id": 1,
+          "platform": "facebook",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 2,
+          "platform": "twitter",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 3,
+          "platform": "instagram",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        }
+      ]
     }
   ],
   "whyChooseUs": [
