@@ -159,36 +159,42 @@
       ]
     }
   ],
-  "whyChooseUs": [
+  "reasonWhyChooseUs": [
     {
       "id": 1,
       "title": "Dedicated Team",
-      "description": "Professional employees are there for you to pick the most amazing and fresh fruits."
+      "description": "Professional employees are there for you to pick the most amazing and fresh fruits.",
+      "iconUrl": "/images/team.svg"
     },
     {
       "id": 2,
       "title": "Fresh is Best",
-      "description": "Professional employees are there for you to pick the most amazing and fresh fruits."
+      "description": "Professional employees are there for you to pick the most amazing and fresh fruits.",
+      "iconUrl": "/images/heart.svg"
     },
     {
       "id": 3,
-      "title": "Quality Products",
-      "description": "Professional employees are there for you to pick the most amazing and fresh fruits."
+      "title": "Gift Certificates",
+      "description": "Professional employees are there for you to pick the most amazing and fresh fruits.",
+      "iconUrl": "/images/gift.svg"
     },
     {
       "id": 4,
       "title": "Integrated Supplier",
-      "description": "Professional employees are there for you to pick the most amazing and fresh fruits."
+      "description": "Professional employees are there for you to pick the most amazing and fresh fruits.",
+      "iconUrl": "/images/supplier.svg"
     },
     {
       "id": 5,
       "title": "Sustainable Practice",
-      "description": "Professional employees are there for you to pick the most amazing and fresh fruits."
+      "description": "Professional employees are there for you to pick the most amazing and fresh fruits.",
+      "iconUrl": "/images/practice.svg"
     },
     {
       "id": 6,
       "title": "The Benefits Only",
-      "description": "Professional employees are there for you to pick the most amazing and fresh fruits."
+      "description": "Professional employees are there for you to pick the most amazing and fresh fruits.",
+      "iconUrl": "/images/like.svg"
     }
   ]
 }
