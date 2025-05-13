@@ -26,5 +26,3 @@ export interface IReason {
   description: string;
   iconUrl: string;
 }
-
-export type TSide = "LEFT" | "RIGHT";
