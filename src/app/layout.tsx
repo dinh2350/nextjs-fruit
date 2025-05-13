@@ -2,12 +2,13 @@ import DealOfTheDay from "app/components/DealOfTheDay";
 import Footer from "app/components/footer";
 import Header from "app/components/header";
 import MeetTheTeam from "app/components/MeetTheTeam";
+import WhyChooseUs from "app/components/WhyChooseUs";
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
 
 const lato = Lato({
-  weight: ["100", "400", "700"],
+  weight: ["100", "400", "700", "900"],
   subsets: ["latin"],
 });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
           {children}
           <DealOfTheDay />
           <MeetTheTeam />
+          <WhyChooseUs />
         </div>
         <Footer />
       </body>
