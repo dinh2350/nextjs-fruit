@@ -20,3 +20,9 @@ export interface ISocialLink {
   link: string;
   imageIconSrc: string;
 }
+export interface IReason {
+  id: number;
+  title: string;
+  description: string;
+  iconUrl: string;
+}
