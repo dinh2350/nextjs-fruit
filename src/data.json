@@ -1,0 +1,200 @@
+{
+  "banner": {
+    "backgroundImages": [{ "id": 1, "imgUrl": "" }],
+    "title": "Exotic tastes at your doorstep",
+    "subTitle": "We supply highly quality organic products"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Strawberry",
+      "image": "/images/categories/strawberry.png"
+    },
+    { "id": 2, "name": "Orange", "image": "/images/categories/orange.png" },
+    { "id": 3, "name": "Mango", "image": "/images/categories/mango.png" },
+    {
+      "id": 4,
+      "name": "Strawberry",
+      "image": "/images/categories/strawberry2.png"
+    },
+    { "id": 5, "name": "Grapes", "image": "/images/categories/grapes.png" }
+  ],
+  "dealOfTheDay": {
+    "countDown": "2025-06-01T00:00:00",
+    "content": "Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "products": [
+      {
+        "id": 1,
+        "name": "Red Apple",
+        "priceRange": [12.9, 18.85],
+        "rating": 5,
+        "image": "/images/fruit-apple.png"
+      },
+      {
+        "id": 2,
+        "name": "Dragon Fruit",
+        "priceRange": [12.9, 18.85],
+        "rating": 5,
+        "image": "/images/deal-orange.png"
+      },
+      {
+        "id": 3,
+        "name": "Banana",
+        "priceRange": [12.9, 18.85],
+        "rating": 5,
+        "image": "/images/deal-banana.png"
+      },
+      {
+        "id": 4,
+        "name": "Orange",
+        "priceRange": [12.9, 18.85],
+        "rating": 5,
+        "image": "/images/deal-red-dragon.png"
+      }
+    ]
+  },
+  "teamMembers": [
+    {
+      "id": 1,
+      "name": "Awlad Hossain",
+      "position": "Fruits Expert",
+      "avatar": "/images/team1.png",
+      "socialLinks": [
+        {
+          "id": 1,
+          "platform": "facebook",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 2,
+          "platform": "twitter",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 3,
+          "platform": "instagram",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Safia Chowdhury",
+      "position": "Fruits Expert",
+      "avatar": "/images/team1.png",
+      "socialLinks": [
+        {
+          "id": 1,
+          "platform": "facebook",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 2,
+          "platform": "twitter",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 3,
+          "platform": "instagram",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rokib Hossain",
+      "position": "Fruits Expert",
+      "avatar": "/images/team1.png",
+      "socialLinks": [
+        {
+          "id": 1,
+          "platform": "facebook",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 2,
+          "platform": "twitter",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 3,
+          "platform": "instagram",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Chaity",
+      "position": "Fruits Expert",
+      "avatar": "/images/team1.png",
+      "socialLinks": [
+        {
+          "id": 1,
+          "platform": "facebook",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 2,
+          "platform": "twitter",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        },
+        {
+          "id": 3,
+          "platform": "instagram",
+          "link": "https://www.instagram.com/",
+          "imageIconSrc": "/images/icon-facebook.svg"
+        }
+      ]
+    }
+  ],
+  "reasonWhyChooseUs": [
+    {
+      "id": 1,
+      "title": "Dedicated Team",
+      "description": "Professional employees are there for you to pick the most amazing and fresh fruits.",
+      "iconUrl": "/images/team.svg"
+    },
+    {
+      "id": 2,
+      "title": "Fresh is Best",
+      "description": "Professional employees are there for you to pick the most amazing and fresh fruits.",
+      "iconUrl": "/images/heart.svg"
+    },
+    {
+      "id": 3,
+      "title": "Gift Certificates",
+      "description": "Professional employees are there for you to pick the most amazing and fresh fruits.",
+      "iconUrl": "/images/gift.svg"
+    },
+    {
+      "id": 4,
+      "title": "Integrated Supplier",
+      "description": "Professional employees are there for you to pick the most amazing and fresh fruits.",
+      "iconUrl": "/images/supplier.svg"
+    },
+    {
+      "id": 5,
+      "title": "Sustainable Practice",
+      "description": "Professional employees are there for you to pick the most amazing and fresh fruits.",
+      "iconUrl": "/images/practice.svg"
+    },
+    {
+      "id": 6,
+      "title": "The Benefits Only",
+      "description": "Professional employees are there for you to pick the most amazing and fresh fruits.",
+      "iconUrl": "/images/like.svg"
+    }
+  ]
+}
