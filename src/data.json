@@ -1,6 +1,6 @@
 {
   "banner": {
-    "backgroundImages": [{ "id": 1, "imgUrl": "" }],
+    "backgroundImages": "/images/carousel/banner.png",
     "title": "Exotic tastes at your doorstep",
     "subTitle": "We supply highly quality organic products"
   },
@@ -8,16 +8,16 @@
     {
       "id": 1,
       "name": "Strawberry",
-      "image": "/images/categories/strawberry.png"
+      "imageUrl": "/images/strawberry.png"
     },
-    { "id": 2, "name": "Orange", "image": "/images/categories/orange.png" },
-    { "id": 3, "name": "Mango", "image": "/images/categories/mango.png" },
+    { "id": 2, "name": "Orange", "imageUrl": "/images/orange.png" },
+    { "id": 3, "name": "Mango", "imageUrl": "/images/mango.png" },
     {
       "id": 4,
       "name": "Strawberry",
-      "image": "/images/categories/strawberry2.png"
+      "imageUrl": "/images/strawberry-2.png"
     },
-    { "id": 5, "name": "Grapes", "image": "/images/categories/grapes.png" }
+    { "id": 5, "name": "Grapes", "imageUrl": "/images/grapes.png" }
   ],
   "dealOfTheDay": {
     "countDown": "2025-06-01T00:00:00",
