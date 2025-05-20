@@ -26,3 +26,9 @@ export interface IReason {
   description: string;
   iconUrl: string;
 }
+
+export interface IFruitCatergory {
+  id: number;
+  name: string;
+  imageUrl: string;
+}

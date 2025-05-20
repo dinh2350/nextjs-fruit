@@ -1,3 +1,4 @@
+import Banner from "app/components/banner";
 import DealOfTheDay from "app/components/DealOfTheDay";
 import Footer from "app/components/footer";
 import Header from "app/components/header";
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body className={lato.className}>
         <div className="w-[80%] mx-auto">
           <Header />
+          <Banner />
           {children}
           <DealOfTheDay />
           <MeetTheTeam />
